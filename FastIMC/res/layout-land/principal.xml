@@ -1,0 +1,189 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tVBemVindo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvBemVindo"
+            android:layout_gravity="right"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/descImg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagem2" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/tvPeso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:text="@string/tvPeso" />
+
+                <EditText
+                    android:id="@+id/etPeso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:ems="3"
+                    android:inputType="numberDecimal" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:text="@string/tvKg" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/tvAltura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:text="@string/tvAltura" />
+
+                <EditText
+                    android:id="@+id/etAltura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:ems="3"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/tvKg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:text="@string/tvM" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:text="@string/tvSexo" />
+            </TableRow>
+        </TableLayout>
+
+        <RadioGroup
+            android:id="@+id/rgSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rbSexo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rbSexo1" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rbSexo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbSexo2" >
+            </RadioButton>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btGerar"
+                style="@style/AppTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btCalcular"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btListagem"
+                style="@style/AppTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btListar"
+                android:textStyle="bold" />
+            
+            <Button
+                android:id="@+id/btListaUser"
+                style="@style/AppTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btListaUser"
+                android:textStyle="bold" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRodape1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/rodape"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvRodape2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/rodape2"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</ScrollView>

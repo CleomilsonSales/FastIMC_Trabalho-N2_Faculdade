@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvIdUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/tvListagemErro"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvNomeUser"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvListagemErro" />
+
+        <TextView
+            android:id="@+id/tvSenhaUser"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvListagemErro" />
+
+    </LinearLayout>
+
+</LinearLayout>

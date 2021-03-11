@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   	tools:context=".Login" >
+    
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="110dp"
+	        android:layout_height="110dp"
+	        android:layout_gravity="center_horizontal"
+	        android:contentDescription="@string/descImg"
+	        android:scaleType="centerCrop"
+	        android:src="@drawable/ic_launcher" />
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/tvUser"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tvUser" />
+	
+	        <EditText
+	            android:id="@+id/etUser"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:ems="10" >
+	
+	            <requestFocus />
+	        </EditText>
+	
+	        <TextView
+	            android:id="@+id/tvPass"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tvPass" />
+	
+	        <EditText
+	            android:id="@+id/etPass"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPassword" />
+	
+	        <Button
+	            android:id="@+id/btLogar"
+	            style="@style/AppTheme"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/btLogar"
+	            android:textStyle="bold" />
+	        
+	        <TextView
+	            android:id="@+id/tvNovoUser"
+	            android:layout_width="wrap_content"
+	            android:layout_height="52dp"
+	            android:layout_gravity="left"
+	            android:gravity="center_vertical"
+	            android:textSize="10sp"
+	            android:textColor="#FF0000"
+	            android:text="@string/tvNovoUser" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/tvRodape1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:text="@string/rodape"
+	            android:textSize="10sp" />
+	
+	        <TextView
+	            android:id="@+id/tvRodape2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:text="@string/rodape2"
+	            android:textSize="10sp" />
+	    </LinearLayout>
+	
+	</LinearLayout>
+</ScrollView>

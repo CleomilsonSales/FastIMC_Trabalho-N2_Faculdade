@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FastIMC</string>
+    <string name="action_settings">Settings</string>
+    <string name="msgGeral">Calculating IMC</string>
+    <string name="descImg">Simple picture</string>
+    <string name="tvPeso">Enter your Weight:</string>
+    <string name="tvAltura">Enter your height:</string>
+    <string name="btCalcular">Generate IMC</string>
+    <string name="btListar">History</string>
+    <string name="tvM">m</string>
+    <string name="tvKg">kg</string>
+    <string name="tvSexo">What is your gender?</string>
+    <string name="rbSexo1">Woman</string>
+    <string name="rbSexo2">Man</string>
+    <string name="rodape">Developed by Cleomilson Sales</string>
+    <string name="rodape2">FATENE - Job N2(PDM)</string>
+    <string name="tvBemVindo">You are logged in as:</string> 
+    
+    
+    <!-- Listagem -->
+    <string name="tvListagemErro">No data</string>
+    <string name="tvTData">Date</string>
+    <string name="tvTUser">User</string>
+    <string name="tvTSexo">Sex</string>
+    <string name="tvTAltura">Height</string>
+    <string name="tvTPeso">Weight</string>
+    <string name="tvTResultado">Outcome</string>
+    <string name="tvTSenha">Password</string>
+    <string name="msgErroAdmin">There can be no change in the System Administrator.</string>
+    <string name="nomeAdmin">ADMIN</string>
+    
+    <string name="tvFiltro">Filters:</string>
+    <string name="rbSemana">Week</string>
+    <string name="rbMes">Month</string>
+    <string name="rbAno">Year</string>
+    
+    <!-- Mensagens de PopUp's -->
+    <string name="textBotaoEnviar">Exit</string>
+    <string name="textTitulo">Result ICM</string>
+    <string name="mensagemCamposVazios">There can be no emptiness field.</string>
+    <string name="mensagemIMCErro">ICM not found!</string>
+    <string name="mensagemIMCBaixo">Underweight.</string>
+    <string name="mensagemIMCNormal">Normal weight.</string>
+	<string name="mensagemIMCMagAcima">Marginally overweight.</string>
+	<string name="mensagemIMCAcima">Overweight.</string>
+	<string name="mensagemIMCObeso">Obese.</string>
+	<string name="mensagemErroInserir">Error Insert historiography. Error:</string>
+	<string name="mensagemSimNaoDeletar">Really delete record?</string>
+	<string name="mensagemSimNaoAbrirSite">Want to see tips for this result?</string>
+	<string name="sim">Yes</string>
+	<string name="nao">No</string>
+    
+	<!-- Login -->
+    <string name="tvUser">User:</string>
+    <string name="tvPass">Password:</string>
+    <string name="tvId">Id:</string>
+    <string name="btLogar">Enter</string>
+    <string name="btLogarAddUser">Create User</string>
+    <string name="btUpUser">Edit User</string>
+    <string name="btDeleteUser">Delete User</string>
+    <string name="tvAddUser">Adding User</string>
+    <string name="tvUpUser">Editing User</string>
+    <string name="tvPassR">Password repeat:</string>
+    <string name="erroInsirirUser">There was an error while trying to insert User:</string>
+    <string name="erroAtualizarUser">There was an error while trying to update User:</string>
+    <string name="erroDeleteUser">There was an error trying to delete User:</string>
+    <string name="userInserido">Welcome</string>
+    <string name="userEditado">successfully updated.</string>
+    <string name="userDeletado">Deleting user performed.</string>
+    <string name="erroRepetirSenha">Password is not checked. Please verify.</string>
+    <string name="tvNovoUser">Create user here.</string>
+    <string name="btListaUser">Users</string>
+    <string name="msgUsuarioInvalido">User or Password invalid</string>
+    
+
+</resources>

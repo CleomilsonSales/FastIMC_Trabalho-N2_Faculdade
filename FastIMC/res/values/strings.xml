@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FastIMC</string>
+    <string name="action_settings">Configurações</string>
+    <string name="msgGeral">Calculando IMC</string>
+    <string name="descImg">Simples imagem</string>
+    <string name="tvPeso">Informe seu Peso:</string>
+    <string name="tvAltura">Informe sua Altura:</string>
+    <string name="btCalcular">Gerar IMC</string>
+    <string name="btListar">Historico</string>
+    <string name="tvM">m</string>
+    <string name="tvKg">kg</string>
+    <string name="tvSexo">Qual seu sexo?</string>
+    <string name="rbSexo1">Mulher</string>
+    <string name="rbSexo2">Homem</string>
+    <string name="rodape">Desenvolvido por Cleomilson Sales</string>
+    <string name="rodape2">FATENE - Trabalho N2(PDM)</string>
+    <string name="tvBemVindo">Você está logado como:</string> 
+    
+    
+    <!-- Listagem -->
+    <string name="tvListagemErro">Sem dados</string>
+    <string name="tvTData">Data</string>
+    <string name="tvTUser">Usuário</string>
+    <string name="tvTSexo">Sexo</string>
+    <string name="tvTAltura">Altura</string>
+    <string name="tvTPeso">Peso</string>
+    <string name="tvTResultado">Resultado</string>
+    <string name="tvTSenha">Senha</string>
+    <string name="msgErroAdmin">Não pode haver alteração no Administrador do sistema.</string>
+    <string name="nomeAdmin">ADMIN</string>
+    
+    <string name="tvFiltro">Filtros:</string>
+    <string name="rbSemana">Semana</string>
+    <string name="rbMes">Mês</string>
+    <string name="rbAno">Ano</string>
+    
+    <!-- Mensagens de PopUp's -->
+    <string name="textBotaoEnviar">Sair</string>
+    <string name="textTitulo">Resultado do ICM</string>
+    <string name="mensagemCamposVazios">Não pode haver campo vázio.</string>
+    <string name="mensagemIMCErro">ICM não encontrado!</string>
+    <string name="mensagemIMCBaixo">Abaixo do peso.</string>
+    <string name="mensagemIMCNormal">Peso normal.</string>
+	<string name="mensagemIMCMagAcima">Marginalmente acima do peso.</string>
+	<string name="mensagemIMCAcima">Acima do peso ideal.</string>
+	<string name="mensagemIMCObeso">Obeso.</string>
+	<string name="mensagemErroInserir">Erro em Inserir Histório. Erro: </string>
+	<string name="mensagemSimNaoDeletar">Deseja realmente excluir registro?</string>
+	<string name="mensagemSimNaoAbrirSite">Deseja ver dicas para esse resultado?</string>
+	<string name="sim">Sim</string>
+	<string name="nao">Não</string>
+    
+	<!-- Login -->
+    <string name="tvUser">Usuário:</string>
+    <string name="tvPass">Senha:</string>
+    <string name="tvId">Id:</string>
+    <string name="btLogar">Logar</string>
+    <string name="btLogarAddUser">Criar Usuário</string>
+    <string name="btUpUser">Editar Usuário</string>
+    <string name="btDeleteUser">Deletar Usuário</string>
+    <string name="tvAddUser">Adicionando Usuário</string>
+    <string name="tvUpUser">Editando Usuário</string>
+    <string name="tvPassR">Senha novamente:</string>
+    <string name="erroInsirirUser">Houve um erro ao tentar inserir Usuário:</string>
+    <string name="erroAtualizarUser">Houve um erro ao tentar atualizar Usuário:</string>
+    <string name="erroDeleteUser">Houve um erro ao tentar deletar Usuário:</string>
+    <string name="userInserido">Bem vindo</string>
+    <string name="userEditado">atualizado com sucesso.</string>
+    <string name="userDeletado">Exclusão de usuário realizada.</string>
+    <string name="erroRepetirSenha">Senha não conferi. Favor verificar.</string>
+    <string name="tvNovoUser">Criar usuário aqui.</string>
+    <string name="btListaUser">Usuários</string>
+    <string name="msgUsuarioInvalido">Usuário ou senha inválida</string>
+    
+
+</resources>
